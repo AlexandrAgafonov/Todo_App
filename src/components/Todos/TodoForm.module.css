@@ -1,21 +1,17 @@
-.todoFormContainer {
-  margin-bottom: 30px;
-}
-
-.todoFormContainer form {
+form {
   display: flex;
   align-items: center;
   justify-content: center;
-  
+  margin-bottom: 30px;
 }
 
-.todoFormContainer input {
+input {
   width: 45%;
   height: 30px;
   font-size: 1.3rem;
 }
 
-.todoFormContainer button {
+button {
   margin-left: 20px;
   height: 50px;
   cursor: pointer;
@@ -23,11 +19,11 @@
   font-size: 1.5rem;
 }
 
-.todoFormContainer button:hover {
+button:hover {
   background-color: rgb(240, 240, 155);
 }
 
-.todoFormContainer input,
+input,
 button {
   padding: 10px 15px;
   border: none;
