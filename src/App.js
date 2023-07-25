@@ -46,6 +46,7 @@ function App() {
       {!!todos.length &&(<TodosActions completedTodosExist={!!completedTodosCount} resetTodos={resetTodoHandler} deleteCompletedTodos={deleteCompletedTodosHandler} />)}
       
       <TodoList todos={todos} deleteTodo={deleteTodoHandler} toggleTodo={toggleTodoHandler}/>
+      {completedTodosCount > 0 && <h2>{`You have completed ${completedTodosCount} ${completedTodosCount >1 ? 'todos' : 'todo'}`}</h2>}
     </div>
   )
 }
